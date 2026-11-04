@@ -1,0 +1,76 @@
+# Paulo Jr Manutenção e Serviços 🛠️
+
+Landing page simples e objetiva para divulgar os serviços de manutenção residencial, comercial e de condomínios, com atendimento em Cachoeirinha, RS e região. O objetivo é um só: levar o visitante a pedir um orçamento pelo WhatsApp.
+
+---
+
+## 🧑‍💻 Sobre o projeto
+
+- 🎯 Página única, rápida e responsiva (celular e computador)
+- 🎨 Visual baseado na logo: azul-petróleo e laranja
+- 💬 Botões de WhatsApp com mensagem pronta para o orçamento
+- 📸 Galeria com dicas de manutenção preventiva publicadas no [Instagram](https://www.instagram.com/paulojrmanutencao/)
+- 🧩 Arquivos isolados (HTML, CSS e JS) para facilitar edições futuras
+- 🚫 Sem frameworks e sem etapa de build: abriu o `index.html`, funcionou
+
+---
+
+## 🛠 Tecnologias
+
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](#)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](#)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](#)
+[![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)](#)
+[![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-181717?style=flat-square&logo=github&logoColor=white)](#)
+
+---
+
+## 📁 Estrutura
+
+```
+.
+├── index.html      # conteúdo e textos da página
+├── style.css       # visual (cores e fontes no topo do arquivo)
+├── script.js       # telefone, mensagem do WhatsApp e Instagram
+├── README.md
+└── assets/
+    ├── logo.png    # logo com fundo transparente
+    └── dica-01.png ... dica-08.png   # cards da galeria de dicas
+```
+
+---
+
+## ✏️ Como editar
+
+| O que mudar | Onde |
+|---|---|
+| Telefone, mensagem do WhatsApp, link do Instagram | bloco `CONFIG` no início do `script.js` |
+| Cores e fontes | variáveis em `:root` no início do `style.css` |
+| Textos e serviços | `index.html` |
+| Dicas da galeria | trocar os arquivos em `assets/` ou copiar uma linha `<li>` da galeria no `index.html` |
+
+---
+
+## 🚀 Como rodar e publicar
+
+**Localmente:** baixe a pasta e abra o `index.html` no navegador.
+
+**No ar (GitHub Pages):**
+
+1. Envie os arquivos para um repositório no GitHub
+2. Vá em **Settings → Pages**
+3. Em **Branch**, escolha `main` e a pasta `/ (root)`
+4. Salve e aguarde o link ser gerado
+
+---
+
+## 📫 Contato
+
+[![WhatsApp](https://img.shields.io/badge/-WhatsApp-%2325D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/5551989406950)
+[![Instagram](https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/paulojrmanutencao/)
+
+---
+
+*Manutenção preventiva evita surpresas e gastos maiores.*
+
+Desenvolvido por [Paulo Júnior](https://github.com/PauloFOJr).
