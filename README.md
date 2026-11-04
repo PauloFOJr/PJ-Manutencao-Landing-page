@@ -57,7 +57,7 @@ Landing page simples e objetiva para divulgar os serviços de manutenção resid
 
 **No ar (GitHub Pages):**
 
-[Site](https://paulofojr.github.io/PJ-Manutencao-Landing-page/)
+[Site](https://paulofojr.github.io/PJ-Manutencao-Landing-page/) no ar.
 
 ---
 
