@@ -40,34 +40,14 @@ Landing page simples e objetiva para divulgar os serviços de manutenção resid
 
 ---
 
-## ✏️ Como editar
-
-| O que mudar | Onde |
-|---|---|
-| Telefone, mensagem do WhatsApp, link do Instagram | bloco `CONFIG` no início do `script.js` |
-| Cores e fontes | variáveis em `:root` no início do `style.css` |
-| Textos e serviços | `index.html` |
-| Dicas da galeria | trocar os arquivos em `assets/` ou copiar uma linha `<li>` da galeria no `index.html` |
-
----
-
-## 🚀 Como rodar e publicar
-
-**Localmente:** baixe a pasta e abra o `index.html` no navegador.
-
-**No ar (GitHub Pages):**
-
-[Site](https://paulofojr.github.io/PJ-Manutencao-Landing-page/) no ar.
-
----
-
 ## 📫 Contato
 
-[![WhatsApp](https://img.shields.io/badge/-WhatsApp-%2325D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/5551989406950)
-[![Instagram](https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/paulojrmanutencao/)
-
+- [WhatsApp](https://wa.me/5551989406950)
+- [Instagram](https://www.instagram.com/paulojrmanutencao/)
+- [Linkedin](https://www.linkedin.com/in/paulofojunior)
+- [Github](https://github.com/PauloFOJr)
 ---
 
 *Manutenção preventiva evita surpresas e gastos maiores.*
 
-Desenvolvido por [Paulo Júnior](https://github.com/PauloFOJr).
+Desenvolvido por [Paulo Júnior](https://paulojr.dev.br).
