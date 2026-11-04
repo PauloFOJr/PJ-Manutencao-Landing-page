@@ -57,10 +57,7 @@ Landing page simples e objetiva para divulgar os serviços de manutenção resid
 
 **No ar (GitHub Pages):**
 
-1. Envie os arquivos para um repositório no GitHub
-2. Vá em **Settings → Pages**
-3. Em **Branch**, escolha `main` e a pasta `/ (root)`
-4. Salve e aguarde o link ser gerado
+[Site](https://paulofojr.github.io/PJ-Manutencao-Landing-page/)
 
 ---
 
