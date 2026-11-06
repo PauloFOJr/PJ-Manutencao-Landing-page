@@ -11,7 +11,7 @@ Landing page simples e objetiva para divulgar os serviços de manutenção resid
 - 💬 Botões de WhatsApp com mensagem pronta para o orçamento
 - 📸 Galeria com dicas de manutenção preventiva publicadas no [Instagram](https://www.instagram.com/paulojrmanutencao/)
 - 🧩 Arquivos isolados (HTML, CSS e JS) para facilitar edições futuras
-- 🚫 Sem frameworks e sem etapa de build: abriu o `index.html`, funcionou
+- 🚫 Sem frameworks e sem etapa de build
 
 ---
 
@@ -43,6 +43,7 @@ Landing page simples e objetiva para divulgar os serviços de manutenção resid
 ## 📫 Contato
 
 - [WhatsApp](https://wa.me/5551989406950)
+- [Portfólio](https://manutencao/paulojr.dev.br)
 - [Instagram](https://www.instagram.com/paulojrmanutencao/)
 - [Linkedin](https://www.linkedin.com/in/paulofojunior)
 - [Github](https://github.com/PauloFOJr)
