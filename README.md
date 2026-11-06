@@ -43,7 +43,7 @@ Landing page simples e objetiva para divulgar os serviços de manutenção resid
 ## 📫 Contato
 
 - [WhatsApp](https://wa.me/5551989406950)
-- [Portfólio](https://manutencao/paulojr.dev.br)
+- [Portfólio](https://manutencao.paulojr.dev.br)
 - [Instagram](https://www.instagram.com/paulojrmanutencao/)
 - [Linkedin](https://www.linkedin.com/in/paulofojunior)
 - [Github](https://github.com/PauloFOJr)
