@@ -7,26 +7,54 @@
   <title>Paulo Jr Manutenção e Serviços | Cachoeirinha e região</title>
   <meta name="description"
     content="Manutenção elétrica, hidráulica, reparos e pintura para residências, comércios e condomínios. Peça seu orçamento pelo WhatsApp.">
-  <!-- Social preview (WhatsApp, Facebook, LinkedIn, X). Troque SEU-SITE.com.br pelo endereço final do site. -->
+  <meta name="theme-color" content="#2b506e">
+  <link rel="canonical" href="https://manutencao.paulojr.dev.br/">
+
+  <!-- Prévia ao compartilhar (WhatsApp, Facebook, LinkedIn, X) -->
   <meta property="og:type" content="website">
   <meta property="og:locale" content="pt_BR">
+  <meta property="og:url" content="https://manutencao.paulojr.dev.br/">
   <meta property="og:title" content="Paulo Jr Manutenção e Serviços">
   <meta property="og:description"
     content="Elétrica, hidráulica, reparos e pintura em Cachoeirinha e região. Peça seu orçamento pelo WhatsApp.">
-  <meta property="og:image" content="https://SEU-SITE.com.br/assets/og-image.png">
+  <meta property="og:image" content="https://manutencao.paulojr.dev.br/assets/og-image.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="Logo Paulo Jr Manutenção e Serviços e telefone 51 98940-6950">
+  <meta property="og:image:alt"
+    content="Paulo Jr Manutenção e Serviços: elétrica, hidráulica, reparos e pintura em Cachoeirinha e região. WhatsApp 51 98940-6950">
   <meta name="twitter:card" content="summary_large_image">
+
   <link rel="icon" href="assets/logo.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600&family=Michroma&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+
+  <!-- Dados estruturados para o Google (negócio local) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HomeAndConstructionBusiness",
+    "name": "Paulo Jr Manutenção e Serviços",
+    "url": "https://manutencao.paulojr.dev.br/",
+    "image": "https://manutencao.paulojr.dev.br/assets/logo.png",
+    "telephone": "+55-51-98940-6950",
+    "description": "Manutenção elétrica, hidráulica, reparos e pintura para residências, comércios e condomínios.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Cachoeirinha",
+      "addressRegion": "RS",
+      "addressCountry": "BR"
+    },
+    "areaServed": { "@type": "City", "name": "Cachoeirinha" },
+    "sameAs": ["https://www.instagram.com/paulojrmanutencao/"]
+  }
+  </script>
 </head>
 
 <body>
+  <a class="pular" href="#inicio">Ir para o conteúdo</a>
 
   <header class="topo">
     <a href="#inicio" class="topo__marca" aria-label="Paulo Jr Manutenção e Serviços">
@@ -35,85 +63,204 @@
     </a>
     <nav class="topo__nav" aria-label="Principal">
       <a href="#servicos">Serviços</a>
+      <a href="#como-funciona">Como funciona</a>
       <a href="#dicas">Dicas</a>
       <a href="#contato">Contato</a>
     </nav>
-    <a class="botao botao--pequeno" data-whatsapp href="#">WhatsApp</a>
+    <a class="botao botao--pequeno" data-whatsapp target="_blank" rel="noopener"
+      href="https://wa.me/5551989406950?text=Ol%C3%A1%2C%20Paulo!%20Vi%20seu%20site%20e%20gostaria%20de%20um%20or%C3%A7amento.">WhatsApp</a>
   </header>
 
-  <main id="inicio">
+  <main id="inicio" tabindex="-1">
+
+    <!-- Herói: texto à esquerda, "ordem de serviço" à direita -->
     <section class="heroi">
       <div class="heroi__texto">
         <h1>Manutenção bem feita, do jeito que sua casa precisa.</h1>
         <p>Elétrica, hidráulica, reparos e pintura para residências, comércios e condomínios. Peça um orçamento e fale
           direto com o Paulo Jr.</p>
         <div class="heroi__acoes">
-          <a class="botao" data-whatsapp href="#">Pedir orçamento no WhatsApp</a>
+          <a class="botao" data-whatsapp target="_blank" rel="noopener"
+            href="https://wa.me/5551989406950?text=Ol%C3%A1%2C%20Paulo!%20Vi%20seu%20site%20e%20gostaria%20de%20um%20or%C3%A7amento.">Pedir
+            orçamento no WhatsApp</a>
           <a class="botao botao--contorno" href="#servicos">Ver serviços</a>
         </div>
       </div>
-      <img class="heroi__logo" src="assets/logo.png" alt="Logo Paulo Jr Manutenção e Serviços" width="480" height="480">
+
+      <aside class="os" aria-label="Resumo do atendimento">
+        <p class="os__titulo">Ordem de serviço</p>
+        <dl class="os__lista">
+          <div>
+            <dt>Quem atende</dt>
+            <dd>Paulo Jr, direto com você</dd>
+          </div>
+          <div>
+            <dt>Para quem</dt>
+            <dd>Residências, comércios e condomínios</dd>
+          </div>
+          <div>
+            <dt>Onde</dt>
+            <dd>Cachoeirinha, RS e região</dd>
+          </div>
+          <div>
+            <dt>Orçamento</dt>
+            <dd>Pelo WhatsApp</dd>
+          </div>
+        </dl>
+        <a class="os__tel" data-whatsapp target="_blank" rel="noopener"
+          href="https://wa.me/5551989406950?text=Ol%C3%A1%2C%20Paulo!%20Vi%20seu%20site%20e%20gostaria%20de%20um%20or%C3%A7amento."><span
+            data-telefone>51 98940-6950</span></a>
+      </aside>
     </section>
 
+    <!-- Serviços: cada card abre o WhatsApp já com o serviço na mensagem -->
     <section class="secao" id="servicos">
       <h2>O que eu resolvo</h2>
       <ul class="servicos">
         <li class="servico servico--laranja">
+          <svg class="servico__icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+          </svg>
           <h3>Elétrica</h3>
           <p>Tomadas, interruptores, disjuntores, DR, DPS e revisão do quadro elétrico.</p>
+          <a class="servico__link" data-whatsapp data-servico="elétrica" target="_blank" rel="noopener"
+            href="https://wa.me/5551989406950?text=Ol%C3%A1%2C%20Paulo!%20Vi%20seu%20site%20e%20gostaria%20de%20um%20or%C3%A7amento%20de%20el%C3%A9trica.">Pedir
+            orçamento de elétrica</a>
         </li>
         <li class="servico servico--azul">
+          <svg class="servico__icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z" />
+          </svg>
           <h3>Hidráulica</h3>
           <p>Vazamentos, flexíveis, boias, caixa acoplada, ralos, filtros e chuveiros.</p>
+          <a class="servico__link" data-whatsapp data-servico="hidráulica" target="_blank" rel="noopener"
+            href="https://wa.me/5551989406950?text=Ol%C3%A1%2C%20Paulo!%20Vi%20seu%20site%20e%20gostaria%20de%20um%20or%C3%A7amento%20de%20hidr%C3%A1ulica.">Pedir
+            orçamento de hidráulica</a>
         </li>
         <li class="servico servico--laranja">
+          <svg class="servico__icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path
+              d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
+          </svg>
           <h3>Reparos e montagem</h3>
           <p>Fixação de espelhos, vedação de janelas, calhas e pequenos consertos.</p>
+          <a class="servico__link" data-whatsapp data-servico="reparos e montagem" target="_blank" rel="noopener"
+            href="https://wa.me/5551989406950?text=Ol%C3%A1%2C%20Paulo!%20Vi%20seu%20site%20e%20gostaria%20de%20um%20or%C3%A7amento%20de%20reparos%20e%20montagem.">Pedir
+            orçamento de reparos</a>
         </li>
         <li class="servico servico--azul">
+          <svg class="servico__icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect width="16" height="6" x="2" y="2" rx="2" />
+            <path d="M10 16v-2a2 2 0 0 1 2-2h8a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2" />
+            <rect width="4" height="6" x="8" y="16" rx="1" />
+          </svg>
           <h3>Pintura</h3>
           <p>Pintura e impermeabilização para proteger contra umidade e mofo.</p>
+          <a class="servico__link" data-whatsapp data-servico="pintura" target="_blank" rel="noopener"
+            href="https://wa.me/5551989406950?text=Ol%C3%A1%2C%20Paulo!%20Vi%20seu%20site%20e%20gostaria%20de%20um%20or%C3%A7amento%20de%20pintura.">Pedir
+            orçamento de pintura</a>
         </li>
       </ul>
       <p class="atendimento">Atendimento residencial, comercial e para condomínios.</p>
     </section>
 
+    <!-- Como funciona (ajuste os textos ao seu jeito de trabalhar) -->
+    <section class="secao secao--faixa" id="como-funciona">
+      <h2>Como funciona</h2>
+      <ol class="passos">
+        <li>
+          <h3>Você manda uma mensagem</h3>
+          <p>Conte o que precisa. Se puder, envie uma foto do problema.</p>
+        </li>
+        <li>
+          <h3>Você recebe o orçamento</h3>
+          <p>Eu passo o valor e combinamos o melhor dia para o serviço.</p>
+        </li>
+        <li>
+          <h3>O serviço é feito</h3>
+          <p>Vou até você no dia combinado e resolvo o que foi pedido.</p>
+        </li>
+      </ol>
+    </section>
+
+    <!--
+      TRABALHOS REALIZADOS (descomente quando tiver fotos de antes e depois)
+      Fotos reais de serviços são o que mais passa confiança para quem ainda não conhece o seu trabalho.
+
+      <section class="secao" id="trabalhos">
+        <h2>Trabalhos feitos</h2>
+        <ul class="trabalhos">
+          <li>
+            <img src="assets/trabalho-01.webp" alt="Descreva o serviço feito" width="800" height="600" loading="lazy">
+            <p>Troca do quadro de disjuntores</p>
+          </li>
+        </ul>
+      </section>
+    -->
+
+    <!-- Dicas: rolagem horizontal com encaixe (sem biblioteca) -->
     <section class="secao secao--escura" id="dicas">
       <h2>Quando revisar cada item</h2>
       <p class="secao__intro">Dicas de manutenção preventiva que publico no Instagram. Evite surpresas e gastos maiores.
       </p>
-      <ul class="galeria">
-        <li><img src="assets/dica-01.png" alt="Dica 1: troque a mangueira de gás a cada 5 anos" loading="lazy"></li>
-        <li><img src="assets/dica-02.png" alt="Dica 2: troque a válvula reguladora de gás a cada 5 anos" loading="lazy">
-        </li>
-        <li><img src="assets/dica-03.png" alt="Dica 3: verifique o DPS a cada 5 anos" loading="lazy"></li>
-        <li><img src="assets/dica-04.png" alt="Dica 4: teste o DR a cada 6 meses" loading="lazy"></li>
+      <ul class="galeria" tabindex="0" aria-label="Dicas de manutenção. Role para o lado para ver todas.">
+        <li><img src="assets/dica-01.png" alt="Dica 1: troque a mangueira de gás a cada 5 anos" width="1080"
+            height="1080" loading="lazy"></li>
+        <li><img src="assets/dica-02.png" alt="Dica 2: troque a válvula reguladora de gás a cada 5 anos" width="1080"
+            height="1080" loading="lazy"></li>
+        <li><img src="assets/dica-03.png" alt="Dica 3: verifique o DPS a cada 5 anos" width="1080" height="1080"
+            loading="lazy"></li>
+        <li><img src="assets/dica-04.png" alt="Dica 4: teste o DR a cada 6 meses" width="1080" height="1080"
+            loading="lazy"></li>
         <li><img src="assets/dica-05.png" alt="Dica 5: atenção aos sinais de troca da resistência do chuveiro"
-            loading="lazy"></li>
-        <li><img src="assets/dica-06.png" alt="Dica 6: troque os flexíveis de água a cada 5 anos" loading="lazy"></li>
-        <li><img src="assets/dica-07.png" alt="Dica 7: troque o mecanismo da caixa acoplada a cada 5 anos"
-            loading="lazy"></li>
-        <li><img src="assets/dica-08.png" alt="Dica 8: verifique o detector de fumaça a cada 5 anos" loading="lazy">
-        </li>
+            width="1080" height="1080" loading="lazy"></li>
+        <li><img src="assets/dica-06.png" alt="Dica 6: troque os flexíveis de água a cada 5 anos" width="1080"
+            height="1080" loading="lazy"></li>
+        <li><img src="assets/dica-07.png" alt="Dica 7: troque o mecanismo da caixa acoplada a cada 5 anos" width="1080"
+            height="1080" loading="lazy"></li>
+        <li><img src="assets/dica-08.png" alt="Dica 8: verifique o detector de fumaça a cada 5 anos" width="1080"
+            height="1080" loading="lazy"></li>
       </ul>
-      <a class="botao botao--contorno-claro" data-instagram href="#" target="_blank" rel="noopener">Ver mais dicas no
-        Instagram</a>
+      <p class="galeria__dica">Deslize para o lado para ver todas as dicas.</p>
+      <a class="botao botao--contorno-claro" data-instagram href="https://www.instagram.com/paulojrmanutencao/"
+        target="_blank" rel="noopener">Ver mais dicas no Instagram</a>
     </section>
 
     <section class="chamada" id="contato">
       <h2>Precisa de um orçamento?</h2>
       <p>Mande uma mensagem contando o que precisa. Respondo o mais rápido possível.</p>
-      <a class="botao botao--grande" data-whatsapp href="#"><span data-telefone></span></a>
+      <a class="botao botao--grande" data-whatsapp target="_blank" rel="noopener"
+        href="https://wa.me/5551989406950?text=Ol%C3%A1%2C%20Paulo!%20Vi%20seu%20site%20e%20gostaria%20de%20um%20or%C3%A7amento."><span
+          data-telefone>51 98940-6950</span></a>
     </section>
   </main>
 
   <footer class="rodape">
+    <img src="assets/logo.png" alt="" width="56" height="56">
     <p>Paulo Jr Manutenção e Serviços<br>Cachoeirinha, RS e região</p>
-    <p><a data-instagram href="#" target="_blank" rel="noopener">@paulojrmanutencao</a></p>
-    <p class="rodape__copia">© <span data-ano></span> Paulo Jr Manutenção e Serviços</p>
+    <p><a data-instagram href="https://www.instagram.com/paulojrmanutencao/" target="_blank"
+        rel="noopener">@paulojrmanutencao</a></p>
+    <p><a data-google href="https://share.google/kgPlsKAQWhmSRWuIM" target="_blank" rel="noopener">Ver avaliações no
+        Google</a></p>
+    <p class="rodape__copia">© <span data-ano>2026</span> Paulo Jr Manutenção e Serviços</p>
     <p class="rodape__dev">Desenvolvido por <a href="https://github.com/PauloFOJr" target="_blank"
-        rel="noopener"><strong style="color: var(--laranja-claro);">Paulo Jr.</strong></a></p>
+        rel="noopener"><strong>Paulo Jr.</strong></a></p>
   </footer>
+
+  <!-- Botão fixo de WhatsApp (aparece só no celular) -->
+  <a class="flutuante" data-whatsapp target="_blank" rel="noopener" aria-label="Pedir orçamento no WhatsApp"
+    href="https://wa.me/5551989406950?text=Ol%C3%A1%2C%20Paulo!%20Vi%20seu%20site%20e%20gostaria%20de%20um%20or%C3%A7amento.">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+      stroke-linejoin="round" aria-hidden="true">
+      <path
+        d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
+    </svg>
+    <span>Orçamento</span>
+  </a>
 
   <script src="script.js"></script>
 </body>
