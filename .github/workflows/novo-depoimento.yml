@@ -4,21 +4,21 @@ on:
   workflow_dispatch:
     inputs:
       nome:
-        description: "Nome do cliente"
-        required: true
-      detalhe:
-        description: "Local e serviço (ex.: Cachoeirinha, elétrica)"
-        required: true
-      texto:
-        description: "Texto do depoimento"
+        description: "Nome do cliente (como aparece no Google)"
         required: true
       estrelas:
         description: "Estrelas (1 a 5)"
         default: "5"
         required: true
+      texto:
+        description: "Texto da avaliação (deixe vazio se só tem estrelas)"
+        required: false
+      detalhe:
+        description: "Origem ou serviço (ex.: Avaliação no Google)"
+        required: false
       data:
-        description: "Mês da avaliação (AAAA-MM, ex.: 2026-10). Opcional"
-        required: false 
+        description: "Mês da avaliação (AAAA-MM, ex.: 2026-10)"
+        required: false
 
 permissions:
   contents: write
