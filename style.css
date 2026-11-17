@@ -137,3 +137,27 @@ main:focus { outline: none; }
   html { scroll-behavior: auto; }
   .botao { transition: none; }
 }
+
+/* Depoimentos */
+.depoimentos {
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0.5rem 0 1rem;
+  list-style: none;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+.depoimento {
+  flex: 0 0 min(88%, 360px);
+  scroll-snap-align: start;
+  padding: 1.25rem;
+  background: #fff;
+  border: 1px solid rgba(43, 80, 110, 0.18);
+  border-radius: 12px;
+}
+.depoimento__estrelas { display: flex; gap: 2px; color: #f5a300; }
+.depoimento__estrelas svg { width: 18px; height: 18px; fill: currentColor; }
+.depoimento blockquote { margin: 0.75rem 0 1rem; line-height: 1.55; }
+.depoimento__autor { margin: 0; font-size: 0.9rem; color: #2b506e; }
+.depoimentos__link { margin-top: 0.5rem; text-align: center; }
