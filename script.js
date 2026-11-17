@@ -40,6 +40,13 @@ document.querySelectorAll("[data-ano]").forEach(el => { el.textContent = new Dat
   var lista = secao.querySelector('.depoimentos');
   var STAR = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3 6.1 20.6l1.3-6.6L2.5 9.4l6.6-.8z"/></svg>';
 
+    function mesAno(s) {
+    var m = /^(\d{4})-(\d{2})$/.exec(s || '');
+    if (!m) return '';
+    return new Date(Number(m[1]), Number(m[2]) - 1, 1)
+      .toLocaleDateString('pt-BR', { month: 'long', year: 'numeric' });
+  }
+
   function card(r) {
     var li = document.createElement('li');
     li.className = 'depoimento';
@@ -59,9 +66,10 @@ document.querySelectorAll("[data-ano]").forEach(el => { el.textContent = new Dat
     var b = document.createElement('strong');
     b.textContent = r.nome;
     cap.appendChild(b);
-    if (r.detalhe) {
+        var linha = [r.detalhe, mesAno(r.data)].filter(Boolean).join(' · ');
+    if (linha) {
       cap.appendChild(document.createElement('br'));
-      cap.appendChild(document.createTextNode(r.detalhe));
+      cap.appendChild(document.createTextNode(linha));
     }
 
     li.appendChild(stars);
