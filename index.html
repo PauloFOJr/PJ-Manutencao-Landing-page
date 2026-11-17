@@ -231,8 +231,13 @@
     </section>
 
         <!-- Depoimentos: montados a partir de reviews.json (ver script.js) -->
-    <section class="secao" id="depoimentos" hidden>
+       <section class="secao" id="depoimentos" hidden>
       <h2>O que dizem os clientes</h2>
+      <p class="depoimentos__resumo" hidden>
+        <span class="depoimento__estrelas" data-estrelas role="img"></span>
+        <strong data-nota></strong>
+        <span>· <span data-total></span> no Google</span>
+      </p>
       <ul class="depoimentos" tabindex="0" aria-label="Depoimentos de clientes. Role para o lado para ver todos."></ul>
       <p class="depoimentos__link">
         <a data-google href="https://share.google/kgPlsKAQWhmSRWuIM" target="_blank" rel="noopener">Ver todas as avaliações no Google</a>

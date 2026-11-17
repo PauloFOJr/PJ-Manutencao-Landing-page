@@ -139,6 +139,13 @@ main:focus { outline: none; }
 }
 
 /* Depoimentos */
+.depoimentos__resumo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0 0 1rem;
+}
 .depoimentos {
   display: flex;
   gap: 1rem;
@@ -161,3 +168,8 @@ main:focus { outline: none; }
 .depoimento blockquote { margin: 0.75rem 0 1rem; line-height: 1.55; }
 .depoimento__autor { margin: 0; font-size: 0.9rem; color: #2b506e; }
 .depoimentos__link { margin-top: 0.5rem; text-align: center; }
+
+/* Esconde o que estiver com o atributo hidden (deve ficar por último) */
+.depoimentos__resumo[hidden],
+.depoimentos[hidden],
+#depoimentos[hidden] { display: none; }
