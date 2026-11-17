@@ -16,6 +16,9 @@ on:
         description: "Estrelas (1 a 5)"
         default: "5"
         required: true
+      data:
+        description: "Mês da avaliação (AAAA-MM, ex.: 2026-10). Opcional"
+        required: false 
 
 permissions:
   contents: write
