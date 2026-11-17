@@ -35,10 +35,11 @@ jobs:
           DETALHE: ${{ inputs.detalhe }}
           TEXTO: ${{ inputs.texto }}
           ESTRELAS: ${{ inputs.estrelas }}
+          DATA: ${{ inputs.data }}
         run: |
           jq --arg nome "$NOME" --arg detalhe "$DETALHE" --arg texto "$TEXTO" \
-             --argjson estrelas "$ESTRELAS" \
-             '[{nome:$nome, detalhe:$detalhe, texto:$texto, estrelas:$estrelas}] + .' \
+             --arg data "$DATA" --argjson estrelas "$ESTRELAS" \
+             '[{nome:$nome, detalhe:$detalhe, texto:$texto, estrelas:$estrelas} + (if $data != "" then {data:$data} else {} end)] + .' \
              reviews.json > /tmp/reviews.json
           mv /tmp/reviews.json reviews.json
 
