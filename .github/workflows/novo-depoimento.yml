@@ -13,42 +13,38 @@ on:
       texto:
         description: "Texto da avaliação (deixe vazio se só tem estrelas)"
         required: false
-      detalhe:
-        description: "Origem ou serviço (ex.: Avaliação no Google)"
+      cargo:
+        description: "Local e serviço (ex.: Avaliação no Google)"
         required: false
       data:
         description: "Mês da avaliação (AAAA-MM, ex.: 2026-10)"
         required: false
+      idioma:
+        description: "Idioma do texto (pt ou en)"
+        default: "pt"
+        required: false
+      fonte:
+        description: "Origem da avaliação"
+        type: choice
+        options:
+          - google
+          - outro
+        default: google
 
 permissions:
   contents: write
 
 jobs:
   adicionar:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Adicionar ao reviews.json
-        env:
-          NOME: ${{ inputs.nome }}
-          DETALHE: ${{ inputs.detalhe }}
-          TEXTO: ${{ inputs.texto }}
-          ESTRELAS: ${{ inputs.estrelas }}
-          DATA: ${{ inputs.data }}
-        run: |
-          jq --arg nome "$NOME" --arg detalhe "$DETALHE" --arg texto "$TEXTO" \
-             --arg data "$DATA" --argjson estrelas "$ESTRELAS" \
-             '[{nome:$nome, detalhe:$detalhe, texto:$texto, estrelas:$estrelas} + (if $data != "" then {data:$data} else {} end)] + .' \
-             reviews.json > /tmp/reviews.json
-          mv /tmp/reviews.json reviews.json
-
-      - name: Commit e push
-        env:
-          NOME: ${{ inputs.nome }}
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add reviews.json
-          git commit -m "Novo depoimento: $NOME"
-          git push
+    uses: PauloFOJr/reviews-kit/.github/workflows/add-review.yml@v1
+    with:
+      nome: ${{ inputs.nome }}
+      estrelas: ${{ inputs.estrelas }}
+      texto: ${{ inputs.texto }}
+      cargo: ${{ inputs.cargo }}
+      data: ${{ inputs.data }}
+      idioma: ${{ inputs.idioma }}
+      fonte: ${{ inputs.fonte }}
+      json_path: reviews.json
+      html_path: index.html
+      layout: list
