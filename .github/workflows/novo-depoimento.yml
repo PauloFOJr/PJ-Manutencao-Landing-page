@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       nome:
-        description: "Nome do cliente (como aparece no Google)"
+        description: "Nome da pessoa"
         required: true
       estrelas:
         description: "Estrelas (1 a 5)"
@@ -14,7 +14,7 @@ on:
         description: "Texto da avaliação (deixe vazio se só tem estrelas)"
         required: false
       cargo:
-        description: "Local e serviço (ex.: Avaliação no Google)"
+        description: "Cargo e empresa / local e serviço"
         required: false
       data:
         description: "Mês da avaliação (AAAA-MM, ex.: 2026-10)"
@@ -45,6 +45,6 @@ jobs:
       data: ${{ inputs.data }}
       idioma: ${{ inputs.idioma }}
       fonte: ${{ inputs.fonte }}
-      json_path: reviews.json
+      json_path: js/reviews.json
       html_path: index.html
-      layout: list
+      layout: carousel
