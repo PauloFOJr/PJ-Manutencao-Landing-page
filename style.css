@@ -173,3 +173,4 @@ main:focus { outline: none; }
 .depoimentos__resumo[hidden],
 .depoimentos[hidden],
 #depoimentos[hidden] { display: none; }
+#depoimentos:not(:has(.depoimento)) { display: none; }
