@@ -1,261 +1,289 @@
 [
   {
-    "nome": "teste um",
-    "cargo": "",
-    "texto": "depoimento teste",
-    "estrelas": 5,
-    "lang": "pt",
-    "fonte": "google"
-  },
-  {
     "nome": "Dré Santoz",
     "detalhe": "Porto Alegre - Elétrica",
     "texto": "",
     "estrelas": 5,
-    "data": "2019 - 07"
+    "data": "2019 - 07",
+    "fonte": "google"
   },
   {
     "nome": "Patrícia Diogo",
     "detalhe": "Cachoeirinha - Diversos",
     "texto": "Profissional excelente, muito caprichoso. Ele faz tudo aqui em casa!",
     "estrelas": 5,
-    "data": "2026-11"
+    "data": "2026-11",
+    "fonte": "google"
   },
   {
     "nome": "Marina Cianella",
     "detalhe": "Porto Alegre - Diversos",
     "texto": "Desde que me mudei para POA ele è quem faz tudo de manutenção e obras lá em casa. Serviço muito bom, limpo e confiável.",
     "estrelas": 5,
-    "data": "2026-11"
+    "data": "2026-11",
+    "fonte": "google"
   },
   {
     "nome": "Barra Sul Acium",
     "detalhe": "Porto Alegre - Diversos",
     "texto": "Excelente prestador, sempre responsável e atencioso. Cumpre prazos e combinados. Recomendo,",
     "estrelas": 5,
-    "data": "2026-11"
+    "data": "2026-11",
+    "fonte": "google"
   },
   {
     "nome": "Victoria Citton",
     "detalhe": "Porto Alegre - Elétrica",
     "texto": "O trabalho do paulo é excelente! recomendo de olhos fechados",
     "estrelas": 5,
-    "data": "2026-11"
+    "data": "2026-11",
+    "fonte": "google"
   },
   {
     "nome": "Kelen Soares",
     "detalhe": "Guaíba - Elétrica/Diversos",
     "texto": "Ótimo profissional! De confiança, preço justo e trabalha bem. Recomendo",
     "estrelas": 5,
-    "data": "2026-11"
+    "data": "2026-11",
+    "fonte": "google"
   },
   {
     "nome": "Ana Gomes",
     "detalhe": "Porto Alegre - Diversos",
     "texto": "O Paulo é um excelente profissional. Trabalho sempre impecável. Ele já fez vários trabalhos pra mim, e todos ficaram ótimos. Super recomendo",
     "estrelas": 5,
-    "data": "2026-11"
+    "data": "2026-11",
+    "fonte": "google"
   },
   {
     "nome": "Elemar",
     "detalhe": "Canoas - Elétrica/Pintura",
     "texto": "Profissional organizado e obra limpa! Serviço rápido e sem estresse, recomendo muito! Preço justo!",
     "estrelas": 5,
-    "data": "2026-11"
+    "data": "2026-11",
+    "fonte": "google"
   },
   {
     "nome": "J.R. Weingartner Jr.",
     "detalhe": "Porto Alegre - Elétrica/Diversos",
     "texto": "Excelente profissional!!!",
     "estrelas": 5,
-    "data": "2026-11"
+    "data": "2026-11",
+    "fonte": "google"
   },
   {
     "nome": "Tauane Lopes",
     "detalhe": "Cachoeirinha - Elétrica",
     "texto": "Excelente profissional, sempre disposto a encontrar soluções e ajudar no que for preciso. Sempre indico para meus amigos!",
     "estrelas": 5,
-    "data": "2026-11"
+    "data": "2026-11",
+    "fonte": "google"
   },
   {
     "nome": "Fabrício Gomes",
     "detalhe": "Porto Alegre - Elétrica",
     "texto": "Profissional competente, preço justo, pontual, marquei horário e ele já estava esperando. Recomendo.",
     "estrelas": 5,
-    "data": "2026-11"
+    "data": "2026-11",
+    "fonte": "google"
   },
   {
     "nome": "Elisabete Machado",
     "detalhe": "Cachoeirinha - Elétrica/Hidráulica",
     "texto": "Excelente profissional, rápido, eficiente , confiável e preço bom",
     "estrelas": 5,
-    "data": "2026-11"
+    "data": "2026-11",
+    "fonte": "google"
   },
   {
     "nome": "Valéria Aydos",
     "detalhe": "Porto Alegre - Elétrica/Diversos",
     "texto": "O Paulo é um excelente profissional, sempre disponível e pontual. Faz de tudo um pouco, e muito bem! Desde elétrica até hidráulica e outros reparos. Alem disso, é uma pessoa de confiança e faz um serviço de qualidade com preço justo.",
     "estrelas": 5,
-    "data": "2026-11"
+    "data": "2026-11",
+    "fonte": "google"
   },
   {
     "nome": "Laura de Oliveira",
     "detalhe": "Sapucaia do Sul - Pintura/Elétrica",
     "texto": "O Paulo é excelente! Muito organizado e detalhista com os serviços que faz. 10/10!",
     "estrelas": 5,
-    "data": "2026-11"
+    "data": "2026-11",
+    "fonte": "google"
   },
   {
     "nome": "Andréia Klein",
     "detalhe": "Cachoeirinha - Diversos",
     "texto": "Excelente profissional, super indico!",
     "estrelas": 5,
-    "data": "2026-11"
+    "data": "2026-11",
+    "fonte": "google"
   },
   {
     "nome": "Cesar Eduardo dos Santos",
     "detalhe": "Cachoeirinha - Elétrica",
     "texto": "Profissional dedicado, muito atenciosa, conhecimento no serviço e desempenho rápido.",
     "estrelas": 5,
-    "data": "2026-11"
+    "data": "2026-11",
+    "fonte": "google"
   },
   {
     "nome": "Rafael Bortolini",
     "detalhe": "Porto Alegre - Elétrica/Diversos",
     "texto": "Profissional super prestativo e competente. Ajuda demais.",
     "estrelas": 5,
-    "data": "2026-11"
+    "data": "2026-11",
+    "fonte": "google"
   },
   {
     "nome": "Luciane Nunes",
     "detalhe": "Porto Alegre - Instalações/Diversos",
     "texto": "Muito atencioso, detalhista e caprichoso!!",
     "estrelas": 5,
-    "data": "2026-11"
+    "data": "2026-11",
+    "fonte": "google"
   },
   {
     "nome": "Juliana Winter",
     "detalhe": "Porto Alegre - Elétrica/Diversos",
     "texto": "Excelente profissional, de confiança e eficiente. Super indico.",
     "estrelas": 5,
-    "data": "2026-11"
+    "data": "2026-11",
+    "fonte": "google"
   },
   {
     "nome": "Daphne Gonçalves",
     "detalhe": "Cachoeirinha - Elétrica/Hidráulica",
     "texto": "Ótimo trabalho, extremamente competente e caprichoso, recomendo.",
     "estrelas": 5,
-    "data": "2026-11"
+    "data": "2026-11",
+    "fonte": "google"
   },
   {
     "nome": "Jose Nemetz",
     "detalhe": "Porto Alegre - Diversos",
     "texto": "Realizou conforme combinado",
     "estrelas": 5,
-    "data": "2026-11"
+    "data": "2026-11",
+    "fonte": "google"
   },
   {
     "nome": "Rafaele Caroline Silva",
     "detalhe": "Porto Alegre - Elétrica/Hidráulica",
     "texto": "O Paulo é um ótimo profissional, de confiança (principalmente para mulheres que moram sozinhas, como eu) e muito caprichoso. Indico sempre.",
     "estrelas": 5,
-    "data": "2026-11"
+    "data": "2026-11",
+    "fonte": "google"
   },
   {
     "nome": "Sirlei",
     "detalhe": "Porto Alegre - Elétrica/Diversos",
     "texto": "Muito boa! De confiança! Uso os serviços há anos, inclusive, já deixei ele sozinho pra eu ir na ferragem",
     "estrelas": 5,
-    "data": "2026-11"
+    "data": "2026-11",
+    "fonte": "google"
   },
   {
     "nome": "João Thielem",
     "detalhe": "Porto Alegre - Elétrica/Diversos",
     "texto": "Excelente profissional.",
     "estrelas": 5,
-    "data": "2026-11"
+    "data": "2026-11",
+    "fonte": "google"
   },
   {
     "nome": "Erna Maria",
     "detalhe": "Porto Alegre - Cerâmica/Elétrica",
     "texto": "O Paulo é aberto ao diálogo, escuta o cliente com atenção e é receptivo a sugestões; de confiança",
     "estrelas": 5,
-    "data": "2026-11"
+    "data": "2026-11",
+    "fonte": "google"
   },
   {
     "nome": "Giullia Sassi",
     "detalhe": "Porto Alegre - Pintura/Elétrica",
     "texto": "Paulo já realizou mais de um trabalho para a gente. Ótimo profissional e de confiança! Indico sempre!",
     "estrelas": 5,
-    "data": "2026-11"
+    "data": "2026-11",
+    "fonte": "google"
   },
   {
     "nome": "Patrícia Freitas Waengertner",
     "detalhe": "Porto Alegre - Elétrica/Diversos",
     "texto": "O melhor profissional da área. Trabalho impecável e preço excelente.",
     "estrelas": 5,
-    "data": "2026-11"
+    "data": "2026-11",
+    "fonte": "google"
   },
   {
     "nome": "Rafael Master",
     "detalhe": "Porto Alegre - Elétrica/Hidráulica",
     "texto": "Excelente Profissional, parabéns pelo trabalho que executa sempre com muito conhecimento e dedicação.. Recomendo muito os serviços do Paulo Jr.",
     "estrelas": 5,
-    "data": "2026-11"
+    "data": "2026-11",
+    "fonte": "google"
   },
   {
     "nome": "Carolina Riota",
     "detalhe": "Porto Alegre - Elétrica/Diversos",
     "texto": "Atendimento educado, caprichoso e profissional.",
     "estrelas": 5,
-    "data": "2026-11"
+    "data": "2026-11",
+    "fonte": "google"
   },
   {
     "nome": "Daniel Guedes",
     "detalhe": "Porto Alegre - Elétrica/Diversos",
     "texto": "Profissional excelente. Responsável, qualificado e muito competente. Sou cliente amais de 5 anos e confio plenamente nos serviços prestados por ele.",
     "estrelas": 5,
-    "data": "2026-11"
+    "data": "2026-11",
+    "fonte": "google"
   },
   {
     "nome": "Aline Sasso",
     "detalhe": "Porto Alegre - Pintura/Impermeabilização",
     "texto": "Super indico. Profissional comprometido, caprichoso, trabalho exemplar, perfeito, só elogios.",
     "estrelas": 5,
-    "data": "2026-11"
+    "data": "2026-11",
+    "fonte": "google"
   },
   {
     "nome": "Maristela",
     "detalhe": "Porto Alegre - Elétrica/Hidráulica",
     "texto": "Excelente profissional, além de ser ótima pessoa.",
     "estrelas": 5,
-    "data": "2026-11"
+    "data": "2026-11",
+    "fonte": "google"
   },
   {
     "nome": "Cristina Vargas Cademartori",
     "detalhe": "Porto Alegre - Cerâmica/Elétrica",
     "texto": "Nossa experiência com o Paulo foi excelente! Ele é muito responsável, educado e contribui com ótimas ideias. Faz um trabalho meticuloso e caprichoso!",
     "estrelas": 5,
-    "data": "2026-11"
+    "data": "2026-11",
+    "fonte": "google"
   },
   {
     "nome": "Luciano Brum",
     "detalhe": "Porto Alegre - Elétrica",
     "texto": "Excelente profissional, competente, qualificado, responsável e honesto, recomendo a todos!",
     "estrelas": 5,
-    "data": "2019-07"
+    "data": "2019-07",
+    "fonte": "google"
   },
   {
     "nome": "Dainel Rufato",
     "detalhe": "Eldorado do Sul - Elétrica",
     "texto": "Eu recomendo.",
     "estrelas": 5,
-    "data": "2019-07"
+    "data": "2019-07",
+    "fonte": "google"
   },
   {
     "nome": "Oscar Souza",
     "detalhe": "Guaíba - Elétrica - Hidráulica",
     "texto": "O técnico em referência, é um excelente profissional!!! Sempre prestativo, atencioso e eficiente nas minhas demandas. Somente Ele está autorizado para a reparação geral na minha residência. Sim, Eu o em muito recomendo para este seguimento no mercado de prestação de serviços. Nota \"10\".",
-    "estrelas": 5
+    "estrelas": 5,
+    "fonte": "google"
   }
 ]
