@@ -47,4 +47,4 @@ jobs:
       fonte: ${{ inputs.fonte }}
       json_path: js/reviews.json
       html_path: index.html
-      layout: carousel
+      layout: list
