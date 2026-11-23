@@ -40,6 +40,7 @@
   "url": "https://manutencao.paulojr.dev.br/",
   "image": "https://manutencao.paulojr.dev.br/assets/logo.png",
   "telephone": "+55-51-98940-6950",
+  "priceRange": "A partir de R$ 100",
   "description": "Eletricista, encanador, reparos e pintura para residências, comércios e condomínios em Cachoeirinha, Porto Alegre e região metropolitana.",
   "address": {
     "@type": "PostalAddress",
@@ -71,6 +72,28 @@
   ]
 }
 </script>
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "Quanto custa a visita?",
+        "acceptedAnswer": { "@type": "Answer", "text": "O serviço começa em R$ 100,00. O orçamento é grátis, e se eu não conseguir resolver o problema, você não paga nada." } },
+      { "@type": "Question", "name": "O orçamento é cobrado?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Não, o orçamento é sempre gratuito. Mande uma mensagem com uma foto do problema pelo WhatsApp e eu passo o valor." } },
+      { "@type": "Question", "name": "Atende no fim de semana?",
+        "acceptedAnswer": { "@type": "Answer", "text": "O atendimento é de segunda a sexta, das 8h às 18h. Quando não tem outro jeito, dá para combinar sábado pela manhã." } },
+      { "@type": "Question", "name": "O serviço tem garantia?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Sim, a mão de obra tem garantia. Se algo do que eu fiz der problema, eu volto para resolver." } },
+      { "@type": "Question", "name": "Quais cidades você atende?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Atendo Cachoeirinha, Porto Alegre e região metropolitana: Canoas, Gravataí, Esteio, Sapucaia do Sul, São Leopoldo, Viamão, Guaíba e Eldorado do Sul." } },
+      { "@type": "Question", "name": "Que tipo de serviço você faz?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Elétrica, hidráulica, pequenos reparos e pintura, para residências, comércios e condomínios." } }
+    ]
+  }
+  </script>
+
 </head>
 
 <body>
@@ -81,10 +104,12 @@
       <img src="assets/logo.png" alt="" width="44" height="44">
       <span>Paulo Jr</span>
     </a>
-    <nav class="topo__nav" aria-label="Principal">
+   <nav class="topo__nav" aria-label="Principal">
       <a href="#servicos">Serviços</a>
       <a href="#como-funciona">Como funciona</a>
       <a href="#dicas">Dicas</a>
+      <a href="#depoimentos">Avaliações</a>
+      <a href="#perguntas">Dúvidas</a>
       <a href="#contato">Contato</a>
     </nav>
     <a class="botao botao--pequeno" data-whatsapp target="_blank" rel="noopener"
@@ -1122,6 +1147,36 @@
       </p>
     </section>
 
+    <section class="secao secao--faixa" id="perguntas">
+      <h2>Perguntas frequentes</h2>
+      <div class="faq">
+        <details>
+          <summary>Quanto custa a visita?</summary>
+          <p>O serviço começa em R$ 100,00. O orçamento é grátis, e se eu não conseguir resolver o problema, você não paga nada.</p>
+        </details>
+        <details>
+          <summary>O orçamento é cobrado?</summary>
+          <p>Não, o orçamento é sempre gratuito. Mande uma mensagem com uma foto do problema pelo WhatsApp e eu passo o valor.</p>
+        </details>
+        <details>
+          <summary>Atende no fim de semana?</summary>
+          <p>O atendimento é de segunda a sexta, das 8h às 18h. Quando não tem outro jeito, dá para combinar sábado pela manhã.</p>
+        </details>
+        <details>
+          <summary>O serviço tem garantia?</summary>
+          <p>Sim, a mão de obra tem garantia. Se algo do que eu fiz der problema, eu volto para resolver.</p>
+        </details>
+        <details>
+          <summary>Quais cidades você atende?</summary>
+          <p>Atendo Cachoeirinha, Porto Alegre e região metropolitana: Canoas, Gravataí, Esteio, Sapucaia do Sul, São Leopoldo, Viamão, Guaíba e Eldorado do Sul.</p>
+        </details>
+        <details>
+          <summary>Que tipo de serviço você faz?</summary>
+          <p>Elétrica, hidráulica, pequenos reparos e pintura, para residências, comércios e condomínios.</p>
+        </details>
+      </div>
+    </section>
+
     <section class="chamada" id="contato">
       <h2>Precisa de um orçamento?</h2>
       <p>Mande uma mensagem contando o que precisa. Respondo o mais rápido possível.</p>
@@ -1139,7 +1194,7 @@
     <p><a data-google href="https://share.google/kgPlsKAQWhmSRWuIM" target="_blank" rel="noopener">Ver avaliações no
         Google</a></p>
     <p class="rodape__copia">© <span data-ano>2026</span> Paulo Jr Manutenção e Serviços</p>
-    <p class="rodape__dev">Desenvolvido por <a href="https://github.com/PauloFOJr" target="_blank"
+    <p class="rodape__dev">Desenvolvido por <a href="https://paulojr.dev.br" target="_blank"
         rel="noopener"><strong>Paulo Jr.</strong></a></p>
   </footer>
 

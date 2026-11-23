@@ -174,3 +174,8 @@ main:focus { outline: none; }
 .depoimentos[hidden],
 #depoimentos[hidden] { display: none; }
 #depoimentos:not(:has(.depoimento)) { display: none; }
+
+.faq { display: grid; gap: .75rem; }
+.faq details { background: #fff; border: 1px solid var(--linha); border-radius: 12px; padding: 1rem 1.25rem; }
+.faq summary { font-weight: 600; cursor: pointer; }
+.faq details p { margin: .75rem 0 0; }
