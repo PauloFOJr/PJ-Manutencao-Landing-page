@@ -1,5 +1,149 @@
 [
   {
+    "nome": "Marília Englert",
+    "cargo": "Porto Alegre - Elétrica/Hidráulica",
+    "texto": "",
+    "estrelas": 5,
+    "lang": "pt",
+    "fonte": "google",
+    "data": "2026-11"
+  },
+  {
+    "nome": "Felipe Ceriolli",
+    "cargo": "",
+    "texto": "O Paulo foi muito eficiente e tranquilo. Arrumamos todas as pendências elétricas, quadros e instalação de metais de banheiro. Serviço limpo e organizado! Recomendo muito!",
+    "estrelas": 5,
+    "lang": "pt",
+    "fonte": "google",
+    "data": "Porto Alegre - Elétrica/Outros"
+  },
+  {
+    "nome": "Gisele Braga",
+    "cargo": "Porto Alegre - Elétrica/Hidráulica",
+    "texto": "O Paulo Jr. já realizou vários trabalhos para mim, para a minha filha, para a minha mãe e para a minha sobrinha. Nossas experiências foram sempre positivas. Ele é interessado no trabalho, educado, respeitador e competente. Recomendo de olhos fechados!",
+    "estrelas": 5,
+    "lang": "pt",
+    "fonte": "google",
+    "data": "2026-11"
+  },
+  {
+    "nome": "Henrique Gomes",
+    "cargo": "Porto Alegre - Elétrica/Hidráulica",
+    "texto": "Excelente profissional e um serviço de ótima qualidade.",
+    "estrelas": 5,
+    "lang": "pt",
+    "fonte": "google",
+    "data": "2026-11"
+  },
+  {
+    "nome": "Kaleb Morares Natal",
+    "cargo": "Porto Alegre - Elétrica",
+    "texto": "Organizado, profissional e executa o serviço sempre com excelência. Recomendo muito.",
+    "estrelas": 5,
+    "lang": "pt",
+    "fonte": "google",
+    "data": "2026-11"
+  },
+  {
+    "nome": "Jean Santos",
+    "cargo": "Porto Alegre - Elétrica",
+    "texto": "Confiança, trabalho profissional de qualidade e preço justo. Recomendo!",
+    "estrelas": 5,
+    "lang": "pt",
+    "fonte": "google",
+    "data": "2026-11"
+  },
+  {
+    "nome": "Leonardo Pereira",
+    "cargo": "Porto Alegre - Elétrica/Hidráulica",
+    "texto": "",
+    "estrelas": 5,
+    "lang": "pt",
+    "fonte": "google",
+    "data": "2026-11"
+  },
+  {
+    "nome": "Janice Fleck",
+    "cargo": "Porto Alegre - Elétrica/Hidráulica",
+    "texto": "Sempre contamos com a excelência dos serviços prestados pelo Paulo Jr. Pessoa de extrema confiança e muito atenciosa! Recomendamos sem nenhuma ressalva! Podem confiar!",
+    "estrelas": 5,
+    "lang": "pt",
+    "fonte": "google",
+    "data": "2026-11"
+  },
+  {
+    "nome": "Barbara Gomes",
+    "cargo": "Porto Alegre - Elétrica",
+    "texto": "Gostei muito, muito atencioso! Vale muito a avaliação!!!",
+    "estrelas": 5,
+    "lang": "pt",
+    "fonte": "google",
+    "data": "2026-11"
+  },
+  {
+    "nome": "André Luiz Costa Nunes",
+    "cargo": "Porto Alegre - Reforma",
+    "texto": "O Paulo é um excelente profissional, responsável, correto, pontual, honesto... Sempre que preciso de serviços de reformas, alvenaria, colocação de pisos e azulejos(PERFEITOS),elétrica, hidráulica etc, recorro a ele, pois sei que o serviço ficará perfeito e com valor apropriado ao que foi feito! Não conheço profissional melhor em Porto Alegre e região... APROVEITO PARA AGRADECER A ELE, POR TODAS AS VEZES QUE PRECISEI DOS SEUS SERVIÇOS. GRANDE ABRAÇO!",
+    "estrelas": 5,
+    "lang": "pt",
+    "fonte": "google",
+    "data": "2026-11"
+  },
+  {
+    "nome": "Louise Borba",
+    "cargo": "Porto Alegre - Reforma",
+    "texto": "Profissional responsável, disponível, de confiança e com preço justo.",
+    "estrelas": 4,
+    "lang": "pt",
+    "fonte": "google",
+    "data": "2026-11"
+  },
+  {
+    "nome": "Miche Portella Domingues",
+    "cargo": "Porto Alegre - Elétrica",
+    "texto": "O paulo é um baita profissional! Atencioso, habilidoso e tranquilo . Já recebemos ele aqui em casa para algumas manutenções mais de uma vez e foram ótimas experiências. Eu indico muito.",
+    "estrelas": 5,
+    "lang": "pt",
+    "fonte": "google",
+    "data": "2026-11"
+  },
+  {
+    "nome": "Angélica Souza",
+    "cargo": "Canoas/Hidráulica-Elétrica",
+    "texto": "Excelente profissional, educado, preço justo, pontual. Recomendo.",
+    "estrelas": 5,
+    "lang": "pt",
+    "fonte": "google",
+    "data": "2026-11"
+  },
+  {
+    "nome": "Renato Diogo",
+    "cargo": "Cachoeirinha/Elétrica",
+    "texto": "Serviço de confiança e qualidade.",
+    "estrelas": 5,
+    "lang": "pt",
+    "fonte": "google",
+    "data": "2026-11"
+  },
+  {
+    "nome": "Zilda Borges",
+    "cargo": "Porto Alegre - Reforma",
+    "texto": "Serviços com excelência e muita dedicação! Preço bom, Paulo fez a parte elétrica do meu bistrô em 2022, eu fiquei muito satisfeita com o trabalho dele. Toda vez que acontecia algo, ele que fazia os consertos. Além de ser uma pessoa de muita confiança e muito educado! Super indico!!!!!!",
+    "estrelas": 5,
+    "lang": "pt",
+    "fonte": "google",
+    "data": "2026-11"
+  },
+  {
+    "nome": "Karine Lugo",
+    "cargo": "Porto Alegre - Reforma",
+    "texto": "Excelente trabalho, entrega um serviço completo, comprou o que esqueci, levou os cascalho. Além de ser de extrema confiança! Recomendo o trabalho.",
+    "estrelas": 5,
+    "lang": "pt",
+    "fonte": "google",
+    "data": "2026-11"
+  },
+  {
     "nome": "Dré Santoz",
     "detalhe": "Porto Alegre - Elétrica",
     "texto": "",
