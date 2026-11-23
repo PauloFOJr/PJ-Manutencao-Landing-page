@@ -9,7 +9,7 @@ const CONFIG = {
   // Perfil da Empresa no Google (mostra a nota e as avaliações)
   google: "https://share.google/kgPlsKAQWhmSRWuIM",
   // Link direto do formulário de avaliação (g.page/r/.../review). Use no WhatsApp, depois do serviço.
-  googleAvaliar: ""
+  googleAvaliar: "https://g.page/r/Ca1kbICgBH56EBM/review"
 };
 
 function montarLink(texto) {
