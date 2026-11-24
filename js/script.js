@@ -11,7 +11,7 @@ const CONFIG = {
   google: "https://share.google/kgPlsKAQWhmSRWuIM",
   // Link direto do formulário de avaliação (g.page/r/.../review). Use no WhatsApp, depois do serviço.
   googleAvaliar: "https://g.page/r/Ca1kbICgBH56EBM/review",
-   // ID de medição do GA4
+  // ID de medição do GA4
   ga: "G-TD0LK322VP"
 };
 
@@ -35,8 +35,9 @@ document.querySelectorAll("[data-google]").forEach(a => {
 document.querySelectorAll("[data-telefone]").forEach(el => { el.textContent = CONFIG.telefoneExibido; });
 document.querySelectorAll("[data-ano]").forEach(el => { el.textContent = new Date().getFullYear(); });
 
-/* ===== Medição (GA4) ===== */
-if (CONFIG.ga) {
+/* ===== Medição (GA4) só depois do consentimento ===== */
+function carregarGA() {
+  if (!CONFIG.ga || window.gtag) return;
   const s = document.createElement("script");
   s.async = true;
   s.src = `https://www.googletagmanager.com/gtag/js?id=${CONFIG.ga}`;
@@ -46,6 +47,24 @@ if (CONFIG.ga) {
   gtag("js", new Date());
   gtag("config", CONFIG.ga);
 }
+
+function lerConsentimento() { try { return localStorage.getItem("consentimento"); } catch { return null; } }
+function salvarConsentimento(v) { try { localStorage.setItem("consentimento", v); } catch {} }
+
+const bannerCookies = document.querySelector("[data-cookies]");
+const estadoConsentimento = lerConsentimento();
+if (estadoConsentimento === "aceito") carregarGA();
+else if (!estadoConsentimento && bannerCookies) bannerCookies.hidden = false;
+
+document.querySelector("[data-cookies-aceitar]")?.addEventListener("click", () => {
+  salvarConsentimento("aceito");
+  carregarGA();
+  bannerCookies.hidden = true;
+});
+document.querySelector("[data-cookies-recusar]")?.addEventListener("click", () => {
+  salvarConsentimento("recusado");
+  bannerCookies.hidden = true;
+});
 
 function registrar(evento, params) {
   if (window.gtag) gtag("event", evento, { ...params, transport_type: "beacon" });
