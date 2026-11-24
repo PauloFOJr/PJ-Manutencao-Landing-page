@@ -277,6 +277,12 @@ main:focus {
   margin-bottom: 1.75rem;
 }
 
+.secao > .botao {
+  display: block;
+  width: fit-content;
+  margin-inline: auto;
+}
+
 .secao__intro {
   max-width: 60ch;
   margin: -.75rem 0 2rem;
@@ -749,4 +755,25 @@ main:focus {
 .cookies button[data-cookies-aceitar] {
   background: #2b506e;
   color: #fff;
+}
+
+.rodape__social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid currentColor;
+  color: inherit;
+}
+
+.rodape__social svg {
+  width: 22px;
+  height: 22px;
+}
+
+.rodape__social a:hover,
+.rodape__social a:focus-visible {
+  opacity: .8;
 }
